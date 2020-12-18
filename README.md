@@ -9,19 +9,22 @@ The purpose is to get a consolidated start point for every React project.
 ## What you get so far
 
 - basic code style enforcement with prettier & eslint
+- basic template structure including IT-Team Logo :wink:
 
 ## Roadmap
 
-| status               | task                | priority | notes |
-| -------------------- | ------------------- | -------- | ----- |
-| :white_check_mark:   | linter & prettier   |          |       |
-| :white_large_square: | project scaffolding |          |       |
-| :white_large_square: | Testing             |          |       |
-| :white_large_square: | Git Hooks           |          |       |
-| :white_large_square: | Authentication      |          |       |
-| :white_large_square: | Authorization       |          |       |
-| :white_large_square: | routes              |          |       |
-| :white_large_square: | Typescript          |          |       |
+| status               | task                 | priority | notes                                           |
+| -------------------- | -------------------- | -------- | ----------------------------------------------- |
+| :white_check_mark:   | linter & prettier    |          |                                                 |
+| :white_large_square: | project scaffolding  | 1        | including container vs components vs controller |
+| :white_large_square: | MockApi              |          |                                                 |
+| :white_large_square: | Data & UI separation |          |                                                 |
+| :white_large_square: | Testing              |          |                                                 |
+| :white_large_square: | Git Hooks            |          |                                                 |
+| :white_large_square: | Authentication       |          |                                                 |
+| :white_large_square: | Authorization        |          |                                                 |
+| :white_large_square: | routes               |          |                                                 |
+| :white_large_square: | Typescript           |          |                                                 |
 
 ## Scripts
 
