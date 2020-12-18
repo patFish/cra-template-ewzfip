@@ -1,14 +1,25 @@
 module.exports = {
-  root: true,
+  extends: ['plugin:react/recommended', 'plugin:react-hooks/recommended', 'plugin:prettier/recommended'],
   env: {
+    es6: true,
     node: true,
+    browser: true,
   },
-  extends: ["plugin:vue/essential", "eslint:recommended", "@vue/prettier"],
   parserOptions: {
-    parser: "babel-eslint",
+    ecmaVersion: 8,
+    sourceType: 'module',
+    ecmaFeatures: {
+      jsx: true,
+    },
   },
+  ignorePatterns: ['/node_modules/**', '/build/**'],
   rules: {
-    "no-console": process.env.NODE_ENV === "production" ? "warn" : "off",
-    "no-debugger": process.env.NODE_ENV === "production" ? "warn" : "off",
+    'no-unused-vars': ['warn', { args: 'none', argsIgnorePattern: 'req|res|next|val' }],
+    'prettier/prettier': ['error'],
   },
-};
+  settings: {
+    react: {
+      version: 'detect',
+    },
+  },
+}
