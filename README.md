@@ -16,8 +16,8 @@ The purpose is to get a consolidated start point for every React project.
 | status               | task                 | priority | notes                                                  |
 | -------------------- | -------------------- | -------- | ------------------------------------------------------ |
 | :white_check_mark:   | linter & prettier    |          |                                                        |
-| :white_large_square: | project scaffolding  | 1        | including container vs components vs controller        |
-| :white_large_square: | MockApi              |          |                                                        |
+| :white_check_mark:   | project scaffolding  | 1        | including container vs components vs controller        |
+| :white_check_mark:   | MockApi              |          |                                                        |
 | :white_large_square: | Data & UI separation |          |                                                        |
 | :white_large_square: | Testing              |          |                                                        |
 | :white_large_square: | Git Hooks            |          |                                                        |
