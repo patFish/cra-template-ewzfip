@@ -1,5 +1,5 @@
 import React from 'react'
-import { Logo, Version } from '../components'
+import { Logo, Version, Users } from '../components'
 
 import './style/Header.css'
 
@@ -13,6 +13,7 @@ const Header = () => {
       <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
         Learn React
       </a>
+      <Users />
       <Version />
     </header>
   )
