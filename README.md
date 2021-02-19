@@ -13,18 +13,19 @@ The purpose is to get a consolidated start point for every React project.
 
 ## Roadmap
 
-| status               | task                 | priority | notes                                           |
-| -------------------- | -------------------- | -------- | ----------------------------------------------- |
-| :white_check_mark:   | linter & prettier    |          |                                                 |
-| :white_large_square: | project scaffolding  | 1        | including container vs components vs controller |
-| :white_large_square: | MockApi              |          |                                                 |
-| :white_large_square: | Data & UI separation |          |                                                 |
-| :white_large_square: | Testing              |          |                                                 |
-| :white_large_square: | Git Hooks            |          |                                                 |
-| :white_large_square: | Authentication       |          |                                                 |
-| :white_large_square: | Authorization        |          |                                                 |
-| :white_large_square: | routes               |          |                                                 |
-| :white_large_square: | Typescript           |          |                                                 |
+| status               | task                 | priority | notes                                                  |
+| -------------------- | -------------------- | -------- | ------------------------------------------------------ |
+| :white_check_mark:   | linter & prettier    |          |                                                        |
+| :white_large_square: | project scaffolding  | 1        | including container vs components vs controller        |
+| :white_large_square: | MockApi              |          |                                                        |
+| :white_large_square: | Data & UI separation |          |                                                        |
+| :white_large_square: | Testing              |          |                                                        |
+| :white_large_square: | Git Hooks            |          |                                                        |
+| :white_large_square: | Authentication       |          |                                                        |
+| :white_large_square: | Authorization        |          |                                                        |
+| :white_large_square: | routes               |          |                                                        |
+| :white_large_square: | Typescript           |          |                                                        |
+| :white_large_square: | Scoped Package       |          | for releasing different templates es. Graphql mock api |
 
 ## Scripts
 
